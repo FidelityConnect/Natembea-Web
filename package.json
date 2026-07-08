@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "hugo server",
-    "build": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css && hugo --gc --minify",
+    "build": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css && npx hugo --gc --minify",
     "tailwind": "tailwindcss -i ./assets/css/main.css -o ./assets/css/style.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "devDependencies": {
+  "dependencies": {
     "hugo-extended": "^0.120.0",
     "tailwindcss": "^4.3.2"
   }
