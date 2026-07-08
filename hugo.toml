@@ -1,0 +1,7 @@
+baseURL = 'https://natembea.co.ke/'
+languageCode = 'en-us'
+title = 'Natembea Expeditions'
+theme = 'elevatika'
+
+[build]
+  writeStats = true

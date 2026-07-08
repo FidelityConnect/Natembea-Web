@@ -1,0 +1,13 @@
+<header class="fixed w-full top-0 z-50 bg-white bg-opacity-95 shadow-sm transition-all duration-300">
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+    <a href="{{ site.BaseURL }}" class="text-2xl font-serif font-bold text-navyDeep flex items-center gap-2">
+      <span class="text-gold text-3xl">🦁</span> {{ .Site.Data.site.brand.name }}
+    </a>
+    <nav class="hidden md:flex gap-8">
+      {{ range .Site.Data.site.nav }}
+      <a href="{{ .href }}" class="text-navy hover:text-gold transition font-medium">{{ .label }}</a>
+      {{ end }}
+    </nav>
+    <a href="#contact" class="hidden md:block bg-navy text-white px-6 py-2 rounded-full hover:bg-navyDeep transition">Get in Touch</a>
+  </div>
+</header>

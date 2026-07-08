@@ -1,0 +1,35 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "body",
+      "div",
+      "h1",
+      "h2",
+      "head",
+      "html",
+      "img",
+      "li",
+      "link",
+      "main",
+      "meta",
+      "nav",
+      "p",
+      "script",
+      "section",
+      "time",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "active",
+      "ancestor",
+      "antialiased",
+      "bg-cream",
+      "font-sans",
+      "overflow-x-hidden",
+      "text-navyDeep"
+    ],
+    "ids": null
+  }
+}
